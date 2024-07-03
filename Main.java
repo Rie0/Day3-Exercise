@@ -15,6 +15,8 @@ public class Main {
             System.out.println("Welcome Admin");
         }else if (role.equalsIgnoreCase("Superuser")) {
             System.out.println("Welcome Superuser");
+        } else if (role.equalsIgnoreCase("User")) {
+            System.out.println("Welcome User");
         }else{
             System.out.println("Role doesn't exists.");
         }
